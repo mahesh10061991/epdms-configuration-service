@@ -2,13 +2,16 @@ server:
     port: 8030
 spring:
     application:
-        name: epdms-configuration-service
+        name: EPDMS-CONFIGURATION-SERVICE
     cloud:
         config:
             server:
                 git:
                     uri: https://github.com/mahesh10061991/epdms-configuration-service
                     clone-on-start: true
+                    default-label: main
+                    username: mahesh10061991
+                    password: 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
                     # skipSslValidation: true
                     # timeout: 4
 eureka:
