@@ -11,7 +11,7 @@ spring:
                     clone-on-start: true
                     default-label: main
                     username: mahesh10061991
-                    password: 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
+                    password: ghp_ybM8NE1mAp5V7GIrZCGcgiChXTRxfR0sdfsd
                     # skipSslValidation: true
                     # timeout: 4
 eureka:
